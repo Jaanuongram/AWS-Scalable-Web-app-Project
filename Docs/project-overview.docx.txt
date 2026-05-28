@@ -1,0 +1,9 @@
+Project Overview
+
+This project demonstrates the deployment of a scalable and highly available web application infrastructure using Amazon Web Services (AWS). The architecture was designed to ensure reliability, fault tolerance, load distribution, and automatic scaling of web servers based on traffic demand.
+
+The project includes the creation of a custom Virtual Private Cloud (VPC), public subnets across multiple Availability Zones, Internet Gateway, Route Tables, Security Groups, EC2 instances running Nginx web servers, Application Load Balancer (ALB), Auto Scaling Group (ASG), Launch Templates, and CloudWatch monitoring.
+
+The Application Load Balancer distributes incoming traffic across multiple EC2 instances to improve availability and performance. Auto Scaling automatically launches or terminates instances based on CPU utilization, ensuring efficient resource management and scalability.
+
+CloudWatch monitoring and alarms were configured to monitor infrastructure performance and scaling activities. The project demonstrates important cloud concepts such as scalability, high availability, load balancing, monitoring, and infrastructure automation in AWS.
